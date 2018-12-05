@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Space Tanks",
+"dataUrl": "Tanks Web.data.unityweb",
+"asmCodeUrl": "Tanks Web.asm.code.unityweb",
+"asmMemoryUrl": "Tanks Web.asm.memory.unityweb",
+"asmFrameworkUrl": "Tanks Web.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
