@@ -1,5 +1,5 @@
 body {
-    background-color: #132e23;
+    background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
 }
@@ -59,7 +59,7 @@ li a:hover {
     max-width: 100%;
   }
 
-  .parallax 
+  .parallaxgreen 
   {
       background-image: url("images/backgrounds/bggreen.png");
   
@@ -71,9 +71,45 @@ li a:hover {
       background-size: cover;
   }
 
-  .parallax2
+  .parallaxblue
   {
       background-image: url("images/backgrounds/bgblue.png");
+  
+      min-height: 500px; 
+  
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .parallaxpurple
+  {
+      background-image: url("images/backgrounds/bgpurplepng.png");
+  
+      min-height: 500px; 
+  
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .parallaxred
+  {
+      background-image: url("images/backgrounds/bgred.png");
+  
+      min-height: 500px; 
+  
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .parallaxyellow
+  {
+      background-image: url("images/backgrounds/bgyellow.png");
   
       min-height: 500px; 
   
