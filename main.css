@@ -1,0 +1,84 @@
+body {
+    background-color: #132e23;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    color: #132e23;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 20px 20px black, ;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .parallax 
+  {
+      background-image: url("images/backgrounds/bggreen.png");
+  
+      min-height: 500px; 
+  
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .parallax2
+  {
+      background-image: url("images/backgrounds/bgblue.png");
+  
+      min-height: 500px; 
+  
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
