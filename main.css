@@ -118,3 +118,41 @@ li a:hover {
       background-repeat: no-repeat;
       background-size: cover;
   }
+
+
+  .grid-container 
+  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .grid-item 
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-image 
+  {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 270px;
+    width: 480px;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .image
+  {
+    max-width: 100%;
+    height: auto;
+  }
+
