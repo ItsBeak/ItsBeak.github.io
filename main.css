@@ -232,5 +232,10 @@ li a:hover {
     transform: rotate(270deg);
 }
 
-
+.centered
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 
